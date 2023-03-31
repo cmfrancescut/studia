@@ -1,0 +1,44 @@
+{
+  "hash": "166ab64a",
+  "browserHash": "9f058cf6",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "1c0bd520",
+      "needsInterop": false
+    },
+    "@vue/devtools-api": {
+      "src": "../../../../node_modules/@vue/devtools-api/lib/esm/index.js",
+      "file": "@vue_devtools-api.js",
+      "fileHash": "d0056e74",
+      "needsInterop": false
+    },
+    "@theme/index": {
+      "src": "../../../../node_modules/vitepress/dist/client/theme-default/index.js",
+      "file": "@theme_index.js",
+      "fileHash": "faec09cf",
+      "needsInterop": false
+    },
+    "nanoid": {
+      "src": "../../../../node_modules/nanoid/index.browser.js",
+      "file": "nanoid.js",
+      "fileHash": "49e036c6",
+      "needsInterop": false
+    },
+    "@heroicons/vue/24/solid": {
+      "src": "../../../../node_modules/@heroicons/vue/24/solid/index.js",
+      "file": "@heroicons_vue_24_solid.js",
+      "fileHash": "06b99a87",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-4BHJAEVG": {
+      "file": "chunk-4BHJAEVG.js"
+    },
+    "chunk-OL3AADLO": {
+      "file": "chunk-OL3AADLO.js"
+    }
+  }
+}
