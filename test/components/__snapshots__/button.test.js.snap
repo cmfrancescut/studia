@@ -1,3 +1,9 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Mount component 1`] = `"<button data-v-6b3c8c56=\\"\\" class=\\"rounded m-2 p-2 disabled:opacity-75 disabled:text-opacity-75 disabled:cursor-not-allowed border border-1 border-gray-500 hover:bg-gray-500 hover:text-white disabled:hover:bg-white disabled:border-opacity-75 disabled:hover:text-opacity-75 disabled:hover:text-black\\">text</button>"`;
+exports[`Mount component 1`] = `
+"<button data-v-6b3c8c56=\\"\\" class=\\"rounded m-2 p-2 disabled:opacity-75 disabled:text-opacity-75 disabled:cursor-not-allowed border border-1 border-gray-500 hover:bg-gray-500 hover:text-white disabled:hover:bg-white disabled:border-opacity-75 disabled:hover:text-opacity-75 disabled:hover:text-black\\">
+  <div data-v-6b3c8c56=\\"\\" class=\\"flex flex-row items-center\\">
+    <!--v-if-->text
+  </div>
+</button>"
+`;

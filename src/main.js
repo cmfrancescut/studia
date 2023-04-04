@@ -1,4 +1,4 @@
-import StudiaButton from "@/components/StudiaButton.vue";
+import StudiaButton from '@/components/StudiaButton.vue'
 import { createApp } from 'vue'
 import './style.css'
 

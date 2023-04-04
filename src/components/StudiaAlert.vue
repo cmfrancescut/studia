@@ -1,5 +1,5 @@
 <script setup>
-import { XMarkIcon } from "@heroicons/vue/24/solid";
+import { XMarkIcon } from '@heroicons/vue/24/solid'
 import { ref, computed } from 'vue'
 
 const props = defineProps({
@@ -31,11 +31,9 @@ const style = computed(() => {
   }
 })
 
-
 function toggleVisibility() {
   visible.value = !visible.value
 }
-
 </script>
 <style scoped>
 @import '../style.css';
@@ -49,7 +47,7 @@ function toggleVisibility() {
         </div>
         <div v-if="props.dismissable">
           <button @click="toggleVisibility">
-            <XMarkIcon class="h-6 w-6 pl-0"/>
+            <XMarkIcon class="h-6 w-6 pl-0" />
           </button>
         </div>
       </div>

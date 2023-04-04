@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Mount component 1`] = `
+"<div data-v-dd014d85=\\"\\" class=\\"flex inline-flex items-center justify-center border rounded-md w-8 min-w-max m-1 py-3 px-1 h-4 text-xs border-primary-600 bg-primary-300 text-primary-900\\">
+  <div data-v-dd014d85=\\"\\" class=\\"h-4 w-4 justify-self-start\\"></div>
+  <div data-v-dd014d85=\\"\\" class=\\"place-self-center\\">text</div>
+  <div data-v-dd014d85=\\"\\" class=\\"h-4 w-4 justify-self-end\\"></div>
+</div>"
+`;
