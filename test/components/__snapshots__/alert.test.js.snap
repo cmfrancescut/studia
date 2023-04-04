@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Mount component 1`] = `
+"<div data-v-030bca60=\\"\\">
+  <div data-v-030bca60=\\"\\" class=\\"flex flex-col p-4 m-4 gap-y-2 border border-1 rounded bg-gray-50 text-gray-700\\">
+    <div data-v-030bca60=\\"\\" class=\\"flex flex-row\\">
+      <div data-v-030bca60=\\"\\" class=\\"font-bold uppercase w-[99%] max-h-6\\">heading</div>
+      <!--v-if-->
+    </div>
+    <div data-v-030bca60=\\"\\">text</div>
+  </div>
+</div>"
+`;

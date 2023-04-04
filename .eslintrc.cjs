@@ -5,10 +5,12 @@ module.exports = {
   root: true,
   'extends': [
     'plugin:vue/vue3-essential',
+    'plugin:vitest/recommended',
     'eslint:recommended',
     '@vue/eslint-config-prettier/skip-formatting'
   ],
-  parserOptions: {
+  'parserOptions': {
     ecmaVersion: 'latest'
-  }
+  },
+  'plugins': ['vitest']
 }

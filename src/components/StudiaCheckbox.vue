@@ -1,6 +1,6 @@
 <script setup>
-import {nanoid} from "nanoid";
-import {computed} from "vue";
+import { nanoid } from 'nanoid'
+import { computed } from 'vue'
 
 const props = defineProps({
   modelValue: [Array, Boolean],
@@ -13,18 +13,18 @@ const props = defineProps({
   disabled: {
     type: Boolean,
     default: false
-  },
+  }
 })
 
 const emit = defineEmits(['update:modelValue'])
 
 const model = computed({
   get() {
-    return props.modelValue;
+    return props.modelValue
   },
   set(value) {
-    emit("update:modelValue", value);
-  },
+    emit('update:modelValue', value)
+  }
 })
 
 const id = nanoid()
@@ -33,9 +33,14 @@ const id = nanoid()
 @import '../style.css';
 </style>
 <template>
-  <input type="checkbox" :id="id" :value="value" :disabled="disabled"
-         v-model="model"
-         class="rounded border-gray-500 mr-2 focus:ring focus:ring-1 focus:ring-opacity-80 focus:ring-primary-500 accent-primary-500"/>
+  <input
+    type="checkbox"
+    :id="id"
+    :value="value"
+    :disabled="disabled"
+    v-model="model"
+    class="rounded border-gray-500 mr-2 focus:ring focus:ring-1 focus:ring-opacity-80 focus:ring-primary-500 accent-primary-500"
+  />
   <label :for="id">
     <slot></slot>
   </label>

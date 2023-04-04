@@ -8,3 +8,4 @@ test('Mount component', () => {
     expect(wrapper.text()).toContain('text')
     expect(wrapper.html()).toMatchSnapshot()
 })
+
