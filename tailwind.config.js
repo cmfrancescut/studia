@@ -27,4 +27,7 @@ module.exports = {
       serif: ['Cambria', 'serif']
     }
   },
+  plugins: [
+    require('@tailwindcss/forms')
+  ]
 }
