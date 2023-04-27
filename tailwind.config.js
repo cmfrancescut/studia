@@ -23,11 +23,12 @@ module.exports = {
       red: colors.rose
     },
     fontFamily: {
-      sans: ['Helvetica', 'sans-serif'],
-      serif: ['Cambria', 'serif']
+      sans: ['Optima', 'Segoe', 'sans-serif'],
+      serif: ['Perpetua', 'Baskerville', 'serif']
     }
   },
   plugins: [
-    require('@tailwindcss/forms')
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography')
   ]
 }

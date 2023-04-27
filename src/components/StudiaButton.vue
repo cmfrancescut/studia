@@ -32,11 +32,11 @@ const style = computed(() => {
     case 'ghost':
       return 'bg-transparent hover:underline disabled:text-gray-400 disabled:hover:no-underline'
     case 'outline-green':
-      return 'border border-1 border-success-600 text-success-600 bg-white hover:bg-success-600 hover:text-white disabled:border-opacity-75 disabled:hover:bg-white disabled:hover:text-opacity-75 disabled:hover:text-success-600'
+      return 'border border-1 border-success-600 text-success-600 bg-none hover:bg-success-600 hover:text-white disabled:border-opacity-75 disabled:hover:bg-opacity-0 disabled:hover:text-opacity-75 disabled:hover:text-success-600'
     case 'outline-red':
-      return 'border border-1 border-danger-600 text-danger-600 bg-white hover:bg-danger-600 hover:text-white disabled:border-opacity-75 disabled:hover:bg-white disabled:hover:text-opacity-75 disabled:hover:text-danger-600'
+      return 'border border-1 border-danger-600 text-danger-600 bg-none hover:bg-danger-600 hover:text-white disabled:border-opacity-75 disabled:hover:bg-opacity-0 disabled:hover:text-opacity-75 disabled:hover:text-danger-600'
     default:
-      return 'border border-1 border-gray-500 hover:bg-gray-500 hover:text-white disabled:hover:bg-white disabled:border-opacity-75 disabled:hover:text-opacity-75 disabled:hover:text-black'
+      return 'border border-1 border-gray-500 hover:bg-gray-300 disabled:border-opacity-75 disabled:hover:text-opacity-75 disabled:hover:bg-opacity-0'
   }
 })
 

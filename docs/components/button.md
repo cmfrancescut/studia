@@ -10,7 +10,7 @@ import StudiaButton from '../../src/components/StudiaButton.vue'
 # Button
 
 Studia has several button variants. Notes on use:
-* Only one action variant should be present on a page (to avoid confusing users); all other buttons should be secondary, ghost, or unstyled
+* Only one "action" variant should be present on a page (to avoid confusing users as it is a 'call to action'); all other buttons should be "secondary", ghost, or unstyled
 
 ## Enabled
 <StudiaButton variant="action" name="action">Action</StudiaButton>
