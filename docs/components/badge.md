@@ -24,6 +24,7 @@ All variants can also be displayed as a "small" badge or dot without text or ico
 <StudiaBadge variant="success">Success</StudiaBadge>
 <StudiaBadge variant="warning">Warning</StudiaBadge>
 <StudiaBadge variant="danger">Danger</StudiaBadge>
+<StudiaBadge>Unstyled</StudiaBadge>
 
 ```vue
 <StudiaBadge variant="primary">Primary</StudiaBadge>
@@ -32,6 +33,7 @@ All variants can also be displayed as a "small" badge or dot without text or ico
 <StudiaBadge variant="success">Success</StudiaBadge>
 <StudiaBadge variant="warning">Warning</StudiaBadge>
 <StudiaBadge variant="danger">Danger</StudiaBadge>
+<StudiaBadge>Unstyled</StudiaBadge>
 ```
 
 ## Icons
