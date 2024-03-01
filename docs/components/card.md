@@ -34,8 +34,8 @@ The Lady of the Lake, her arm clad in the purest shimmering samite, held aloft E
 <template #header>
 <img src="../assets/montypython-king.webp" alt="Monty Python GIF - I didn't vote for you"/>
 </template>
-The Lady of the Lake, her arm clad in the purest shimmering samite, held aloft Excalibur from the bosom of the water, signifying by divine providence that I, Arthur, was to carry Excalibur. That is why I am your king.
-<template #footer><a href="/">Example link</a></template>
+The Lady of the Lake, her arm clad in the purest shimmering samite, held aloft Excalibur from the bosom of the water, signifying by divine providence that <a href="/">I, Arthur, was to carry Excalibur</a>. That is why I am your king.
+<template #footer><a href="/">Example link</a> - Example Plain Text</template>
 </StudiaCard>
 
 ```vue
@@ -43,9 +43,9 @@ The Lady of the Lake, her arm clad in the purest shimmering samite, held aloft E
 <template #header>
   <img src="/assets/img" alt="Image alt"/>
 </template>
-The Lady of the Lake, her arm clad in the purest shimmering samite, held aloft Excalibur from the bosom of the water, signifying by divine providence that I, Arthur, was to carry Excalibur. That is why I am your king.
+The Lady of the Lake, her arm clad in the purest shimmering samite, held aloft Excalibur from the bosom of the water, signifying by divine providence that <a href="/">I, Arthur, was to carry Excalibur</a>. That is why I am your king.
 <template #footer>
-  <a href="/">Example link</a>
+  <a href="/">Example link</a> - Example Plain Text
 </template>
 </StudiaCard>
 ```
